@@ -1,0 +1,26 @@
+{
+  "name": "mobile-operator",
+  "version": "0.1.0",
+  "description": "## types",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && npm run copy-dts",
+    "build": "tsc -p .",
+    "copy-dts": "cpx \"./index.d.ts\" \"./dist/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suyu0925/mobile-operator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suyu0925/mobile-operator/issues"
+  },
+  "homepage": "https://github.com/suyu0925/mobile-operator#readme",
+  "devDependencies": {
+    "cpx": "^1.5.0",
+    "typescript": "^2.3.4"
+  }
+}
